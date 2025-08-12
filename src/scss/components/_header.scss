@@ -1,0 +1,22 @@
+// layout/_header.scss
+@use '../abstracts' as abs;
+
+[data-component="header"] {
+    background-color: abs.$color-primary;
+    color: abs.$color-white;
+    padding: 1rem;
+
+    nav {
+        @include abs.flex-center;
+        gap: 1rem;
+    }
+
+    a {
+        color: abs.$color-white;
+        font-weight: bold;
+
+        &:hover {
+            color: abs.$color-secondary;
+        }
+    }
+}

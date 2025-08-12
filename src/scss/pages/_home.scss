@@ -1,0 +1,15 @@
+@use '../abstracts' as abs;
+
+[data-component="home"] {
+    padding: 2rem;
+    background-color: white;
+
+    h1 {
+        font-size: abs.rem(32);
+        color: red;
+    }
+
+    p {
+        color: green;
+    }
+}

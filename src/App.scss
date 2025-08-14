@@ -1,6 +1,13 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cards-showing-container {
+  height: 40em;
+  width: 100%;
+  margin: 2em;
+  overflow: hidden;
+  overflow-y: scroll;
 }
